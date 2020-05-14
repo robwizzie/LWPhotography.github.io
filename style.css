@@ -37,10 +37,6 @@
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -179,6 +175,13 @@ ol li {
 img {
     height: auto;
     max-width: 100%;
+}
+
+.scrolling-content {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    /*A value other than height:auto needs to be set*/
 }
 
 .sonar-table {
