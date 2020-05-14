@@ -177,12 +177,6 @@ img {
     max-width: 100%;
 }
 
-html {
-    overflow-y: scroll;
-    /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
-}
-
 .sonar-table {
     display: table;
     z-index: 9;
