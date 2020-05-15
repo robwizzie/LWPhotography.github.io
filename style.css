@@ -309,6 +309,10 @@ img {
     top: 10px;
 }
 
+.allign-center {
+    margin: 0 auto;
+}
+
 #scrollUp {
     background-color: #48AFE2;
     border-radius: 50%;
